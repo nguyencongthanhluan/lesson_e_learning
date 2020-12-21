@@ -6,7 +6,7 @@ import { SET_COURSES } from "./type";
 export const fetchCourses = (dispatch) => {
   connector({
     url:
-      "http://elearning0706.cybersoft.edu.vn/api/QuanLyKhoaHoc/LayDanhSachKhoaHoc?MaNhom=GP01",
+      "https://elearning0706.cybersoft.edu.vn/api/QuanLyKhoaHoc/LayDanhSachKhoaHoc?MaNhom=GP01",
     method: "GET",
   })
     // request(
